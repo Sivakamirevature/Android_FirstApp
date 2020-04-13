@@ -2,32 +2,33 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-    <Text
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/nature"
+        android:scaleType="centerCrop"
+        />
+    <TextView
+        android:layout_margin="20dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="20dp"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:fontFamily="sans-serif-light"
-        android:textSize="26sp"
+        android:textSize="36sp"
+        android:textStyle="bold"
         android:text="@string/wish"
         android:textColor="#FFFFFF"
         />
     <TextView
+        android:layout_margin="20dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="20dp"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
         android:textSize="26sp"
-        android:text="Sivakami"
+        android:text="@string/creator"
         android:textColor="#FFFFFF"
         android:fontFamily="sans-serif-light"
-        />
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:src="@drawable/img"
-        android:scaleType="centerCrop"
         />
 </RelativeLayout>
